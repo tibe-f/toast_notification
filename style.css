@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(4, 4, 46);
+}
+.btn{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: rgb(4, 4, 46);
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    transform: scale(.96);
+}
+.toasts{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.toast{
+    background-color: white;
+    color: rgb(4, 4, 46);
+    margin: 5px;
+    padding: 7px 15px;
+    border-radius: 6px;
+}
